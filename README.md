@@ -1,6 +1,6 @@
 ## About
 
-Worcr is a [Redis](https://redis.io)-based MIT-licensed background job processing framework. It is extremely fast (100k no-op jobs per second on a single process) and reliable. Worcr is built on [Crystal](https://crystal-lang.org), which syntax is pretty much similar to Ruby's:
+Worcr is a [Redis](https://redis.io)-based MIT-licensed background job processing framework. It is extremely fast (up to 100k no-op jobs per second on a single process) and reliable. Worcr is built on [Crystal](https://crystal-lang.org), which syntax is pretty much similar to Ruby's:
 
 ```crystal
 require "worcr-job"
